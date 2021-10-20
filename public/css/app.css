@@ -67,6 +67,14 @@ header{
 	border-bottom: .05rem solid #e5e5e5
 }
 
+.productTitel{
+	margin-right: 10px;
+}
+
+.product-body button{
+	width: 100%;
+}
+
 .product-row:last-child{
 	border: none;
 }
@@ -79,6 +87,9 @@ header{
 .product-body{
 	width: 50%;
 	padding: 1em 2em;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
 }
 
 .products .form-control{
